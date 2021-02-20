@@ -1,6 +1,7 @@
 module.exports = {
   // 目标tag
   tag: 'el-menu',
+  logTiming: ['open','ref'],
   attribute: {
     replacedNames: {
       'active-name': 'default-active'
@@ -12,10 +13,6 @@ module.exports = {
     },
     removed: ['width'],
     logTiming: []
-  },
-  events: {
-    // 什么情况下 需要记录文件位置，方便后续手动修改
-    logTiming: ['open']
   }
 };
   

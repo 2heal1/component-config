@@ -1,5 +1,6 @@
 module.exports = {
   tag: 'el-dialog',
+  logTiming: ['scrollable', 'ok-text', 'cancel-text', 'style','slot','on-ok'],
   attribute: {
     replacedNames: {
       'closable': 'show-close',
@@ -7,7 +8,6 @@ module.exports = {
       ':loading': 'v-loading',
       'class-name': 'custom-class',
     },
-    logTiming: ['scrollable', 'ok-text', 'cancel-text', 'style']
   },
   events: {
     replacedNames: {

@@ -1,6 +1,7 @@
 module.exports = {
   // 目标tag
   tag: 'el-cascader',
+  logTiming: ['on-change','render-format'],
   attribute: {
     replacedNames: {
       'data': 'options',
@@ -16,10 +17,6 @@ module.exports = {
       }
     },
     removed: ['render-format'],
-  },
-  events: {
-    // 什么情况下 需要记录文件位置，方便后续手动修改
-    logTiming: ['on-change']
   }
 };
   

@@ -1,7 +1,5 @@
 module.exports = {
   tag: 'el-alert',
-  events: {
-    logTiming: ['close']
-  }
+  logTiming: ['on-close','slot']
 };
   

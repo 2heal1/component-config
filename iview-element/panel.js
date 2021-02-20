@@ -1,4 +1,5 @@
 module.exports = {
-  tag: 'el-collapse-item'
+  tag: 'el-collapse-item',
+  logTiming: ['slot'],
 };
   

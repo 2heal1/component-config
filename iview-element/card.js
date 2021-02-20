@@ -1,7 +1,5 @@
 module.exports = {
   tag: 'el-card',
-  attribute: {
-    removed: ['bordered', 'dis-hover', 'padding'],
-  }
+  logTiming: ['bordered', 'dis-hover', 'padding','slot'],
 };
   

@@ -1,6 +1,7 @@
 module.exports = {
   // 目标tag
   tag: 'el-radio-group',
+  logTiming: ['type','vertical'],
   attribute: {
     replacedNames: {
       'content': 'description',
@@ -9,9 +10,7 @@ module.exports = {
       'size': {
         'large': 'medium'
       }
-    },
-    removed: ['vertical'],
-    logTiming: ['type']
+    }
   }
 };
   

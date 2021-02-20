@@ -1,6 +1,7 @@
 module.exports = {
   // 目标tag
   tag: 'el-select',
+  logTiming: ['label-in-value','ref'],
   attribute: {
     replacedNames: {
       'not-found-text': 'no-data-text'
@@ -9,8 +10,7 @@ module.exports = {
       'size': {
         'large': 'medium'
       }
-    },
-    removed: ['label-in-value']
+    }
   }
 };
   
