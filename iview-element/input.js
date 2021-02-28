@@ -17,7 +17,11 @@ module.exports = {
     replacedNames: {
       'on-focus': 'focus',
       'on-blur': 'blur',
-    }
+    },
+    replacedNames: {
+      'on-enter': 'keyup.enter.native',
+      'on-search': 'keyup.enter.native',
+    },
   }
 };
   

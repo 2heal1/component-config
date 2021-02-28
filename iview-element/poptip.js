@@ -7,6 +7,12 @@ module.exports = {
       'delay': 'open-delay'
     },
     removed: ['ok-text', 'cancel-text'],
+  },
+  events:{
+    replacedNames: {
+      'on-popper-show': 'show',
+      'on-popper-hide': 'hide',
+    }
   }
 };
   

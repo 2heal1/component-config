@@ -7,6 +7,7 @@ module.exports = {
       'mask-closable': 'close-on-click-modal',
       ':loading': 'v-loading',
       'class-name': 'custom-class',
+      'v-model':':visible.sync'
     },
   },
   events: {

@@ -4,7 +4,8 @@ module.exports = {
   logTiming: ['open','ref'],
   attribute: {
     replacedNames: {
-      'active-name': 'default-active'
+      'active-name': 'default-active',
+      'open-names': 'default-openeds'
     },
     replacedValue: {
       'theme': {

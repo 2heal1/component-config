@@ -1,6 +1,7 @@
 module.exports = {
   // 目标tag
   tag: 'el-date-picker',
+  logTiming:['format'],
   attribute: {
     replacedNames: {
       'options': 'picker-options'

@@ -3,6 +3,11 @@ module.exports = {
   tag: 'el-tag',
   attribute: {
     removed: ['name'],
+  },
+  events:{
+    replacedNames: {
+      'on-close': 'close',
+    }
   }
 };
   

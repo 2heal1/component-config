@@ -11,6 +11,12 @@ module.exports = {
         'large': 'medium'
       }
     }
+  },
+  events:{
+    replacedNames: {
+      'on-change': 'change',
+      'on-clear': 'clear',
+    }
   }
 };
   
